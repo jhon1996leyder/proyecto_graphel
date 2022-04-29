@@ -1,0 +1,228 @@
+
+
+main{
+    margin:auto;
+    width: 1500px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background: black;
+    padding: 5px;
+    margin:0 0px;
+    display: flex; 
+    justify-content: space-around;
+}
+
+.active{
+    color: #1293cd;
+}
+
+nav{
+    display: flex;
+    justify-items: flex-start;
+    margin: 20px;
+}
+
+a{
+    color: #eff2f7;
+    padding:20px;
+    font-size: 1.0em;
+    text-decoration: none;
+}
+
+.multimedia{
+    color: aliceblue;
+    font-size: 2.4em;
+}
+
+hr{
+    margin: 0;
+    padding: 2px;
+    background-color:#1293d4;
+}
+
+span{
+    color: #1578a6;
+}
+
+.tegnologia{ 
+    height: 600px;
+    background-image: url(../image/cabecera.jpg);
+    background-position: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #eff2f7;
+}
+
+.titulo2{
+    margin: 0;
+}
+
+.p1{
+    text-align: center;
+}
+
+.div1{
+    background: black;
+    padding: 5px;
+    margin:0 0px;
+    display: flex; 
+    justify-content: space-around;
+}
+
+input{
+    margin: 25px 0;
+    padding: 10px 50px 10px 0;
+}
+
+button{
+    background:#e8491d;
+    color: #eff2f7;
+    padding: 10px 40px;
+}
+
+.logos{
+    padding: 30px 200px;
+    margin: 20px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background-color: #1293cd;
+    padding:20px ;
+    color: #eff2f7;
+}
+
+img{
+    width: 150px; 
+}
+
+/*---------------SEGUNDA PAGINA NOSOTROS -------------*/
+
+.div2{
+    padding:15px 0px 0px 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    display: flex;
+    flex-direction: row;  
+}
+
+.nosotros{
+    margin: 5px 10px 10px 0;
+} 
+
+.parrafo1{
+    margin: 5px 100px 10px 0;
+    text-align: start;
+
+}
+
+.parrafo2{
+    background-color:#35424a;
+    padding: 20px;
+    margin: 5px 110px 10px 0;
+    color: aliceblue;
+    text-align: start;
+}
+
+.imagen2{
+    width: 780px;
+    margin:10px 0px;
+}
+
+.div3{
+    color: aliceblue;
+    padding: 0px 20px;
+    background-color:#35424a;
+    margin: 20px 140px 345px 0;
+}
+
+.parrafo3{
+    text-align: start;
+}
+
+/*---------------SEGUNDA PAGINA SERVICIOS -------------*/
+
+.texto1{
+    background-color: #f4f4f4 ;
+    padding:15px 0px 0px 160px;
+    display: flex;
+    flex-direction: row;  
+}
+
+.div6{
+    margin: 20px 130px 620px 0px;
+    background-color:#35424a;
+    padding: 20px;
+    color: aliceblue;
+    text-align: start;
+}
+
+.div7{
+    width: 250%;
+    padding: 0px 20px;
+    margin:10px;
+}
+
+.parrafo4{
+    margin: 10px 10px 10px 0;
+    background-color: #e6e6e6;
+    text-align: start;
+    padding: 30px;
+    border-style: solid;
+    border-color: #CCCCCC;
+    border-width: 1px;
+}
+
+/*---------------SEGUNDA PAGINA CONTACTO -------------*/
+
+.div8{
+    display: flex;
+    flex-direction: row;
+    background-color:#e6e6e6;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin:0 50px 10px 165px;
+}
+
+.contenedor_negro{
+    background-color: #35424a;
+    margin: 20px 0 10px 50px;
+    width: 270px;
+    padding: 10px;
+    height: 230px;
+    color: white;
+}
+
+.consulta{
+    width: 93%;
+    margin: 0;
+}
+
+.mapa{
+    width: 290px;
+    height: 240px;
+    margin: 10px 0px 10px 50px;
+}
+
+.button1{
+    background:#e8491d;
+    width: 98%;
+    margin:10px 0px  10px 0;
+}
